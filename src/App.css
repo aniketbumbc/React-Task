@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +31,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+.heading{
+  color: rebeccapurple;
+}
+h1 {
+  text-align:center;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.redBg{
+  background-color: red;
+  color:white;
+}
+.greenBg{
+background-color: green;
+color:white;
+}
+
+.blackBg{
+  background-color:black ;
+  color:white;
+}
+
+.radio-btn{
+  margin-left: 10px;
+}
+.critical{
+  color:white;
+  height:150px;
+  width: 500px;
+  background-color:red;
+  text-align: left;
+  margin-left: 50px;
+    margin-right: auto;
+    padding-left: 10px;
+}
+.normal{
+  color:white;
+  height: 150px;
+  width: 500px;
+  background-color:green;
+  text-align: left;
+  margin-left: 50px;
+ margin-right: auto;
+ padding-left: 10px;
+}
+
+.info{
+  color:white;
+  height: 150px;
+  width: 500px;
+  background-color: black;
+  text-align: left;
+  margin-left: 50px;
+  margin-right: auto;
+  padding-left: 10px;
+}
+ul{
+  list-style-type: none;
+  margin: 20px;
+}
+
+ul li{
+  padding-left:10px;
+  padding-bottom: 20px;
 }
